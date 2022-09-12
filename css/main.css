@@ -1,0 +1,159 @@
+/*General Settings*/
+:root
+{
+	--light: #afe;
+	--dark: #289;
+	--lightop: #f84;
+	--darkop: #f04;
+}
+* 
+{
+	padding : 0;
+	margin : 0;
+	box-sizing: border-box;
+	font-family: light;
+	line-height: 28px;
+}
+body
+{
+	
+}
+a, a.active
+{
+	text-decoration: none;
+	color: var(--dark);
+}
+a:hover
+{
+	color: var(--light); 
+}
+@font-face
+{
+	font-family: light;
+	src: url("../fonts/light.ttf");
+}
+@font-face
+{
+	font-family: bold;
+	src: url("../fonts/bold.ttf");
+}
+h1, h2, h3, h4, h5, h6, .bold, b, strong
+{
+	font-family: bold;
+}
+
+/*Top Navigation Bar*/
+.navBar
+{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	border-bottom: 1px solid var(--light);
+	padding: 5px;
+	background: #fff;
+	z-index: 4;
+	direction: ltr;
+}
+.navLogo
+{
+	height: 50px;
+}
+.dashes
+{
+	width: 50px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background: none;
+	border: 0;
+}
+.dashes img
+{
+	width: 100%;
+}
+.topPanel
+{
+	position: fixed; 
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	left: 0;
+	z-index: 5;
+	top: -130%;
+	transition: top 1s;
+}
+.fone
+{
+	margin-top: 20%;
+}
+
+/*The first text styles manager*/
+.one
+{
+	width: 100%;
+	background-image: url("../img/nightInTheSea.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 65px;
+	padding: 20px;
+	color: #fff; 
+	text-align: center;
+}
+#theLogo
+{
+	width: 50%;
+	margin-bottom: 20px;
+}
+.onesText
+{
+	position: relative;
+	top: -15px;
+	padding-top: 30px;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 0 0 10px  var(--dark);
+	border-radius: 0 0 20px 20px;
+	z-index: -1;
+	
+}
+
+/* All the contents style */
+.content
+{
+	text-align: center;
+}
+.adsImg
+{
+	width: 40%;
+	margin: 25px;
+}
+.trans
+{
+	width: 100%;
+}
+.rot
+{
+	transform: rotate(180deg);
+}
+.content h2
+{
+	font-size: 1.8em;
+	height: auto;
+	background: linear-gradient(to top right, var(--dark), var(--light));
+	-webkit-text-fill-color: transparent; 
+	-webkit-background-clip: text;
+}
+.content p
+{
+	padding: 0 20px;
+}
+
+/* the second one named by tow */
+.two
+{
+	
+}
+
+
